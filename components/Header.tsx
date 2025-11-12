@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 
 const Header: React.FC = () => {
@@ -32,7 +31,7 @@ const Header: React.FC = () => {
         </a>
         <nav className="hidden md:flex space-x-6">
           {navLinks.map(link => (
-             <a key={link.href} href={link.href} className="text-gray-200 hover:text-[#D4AF37] transition-colors duration-300 font-medium">
+             <a key={link.href} href={link.href} className="text-gray-200 hover:text-[#F0C746] transition-colors duration-300 font-medium">
               {link.label}
             </a>
           ))}
