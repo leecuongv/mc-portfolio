@@ -15,7 +15,7 @@ const Partners: React.FC = () => {
                         <img 
                             src={partner.logo} 
                             alt={partner.name}
-                            className="h-12 md:h-16 w-auto object-contain filter grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300"
+                            className="h-12 md:h-16 w-auto object-contain transition-transform duration-300 transform hover:scale-105"
                             title={partner.name}
                         />
                     </div>
