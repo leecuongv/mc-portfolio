@@ -67,12 +67,12 @@ export const services: Service[] = [
 ];
   
 export const partners: Partner[] = [
-    { name: "Honda VietNam", logo: "./data/logos/Honda.svg" },
-    { name: "Yamaha VietNam", logo: "./data/logos/Yamaha.svg" },
-    { name: "Z-Solutions", logo: "/logos/z-solutions.png" },
-    { name: "Global Media", logo: "/logos/global-media.png" },
-    { name: "NextGen Events", logo: "/logos/nextgen.png" },
-    { name: "Prestige Hotels", logo: "/logos/prestige.png" }
+    { name: "Amazon", logo: "https://cdn.worldvectorlogo.com/logos/amazon-2.svg" },
+    { name: "Honda", logo: "https://cdn.worldvectorlogo.com/logos/honda-9.svg" },
+    { name: "Yamaha", logo: "https://cdn.worldvectorlogo.com/logos/yamaha-4.svg" },
+    { name: "Sabeco", logo: "https://cdn.worldvectorlogo.com/logos/sabeco.svg" },
+    { name: "TCL", logo: "https://cdn.worldvectorlogo.com/logos/tcl-1.svg" },
+    { name: "FPT Software", logo: "https://cdn.worldvectorlogo.com/logos/fpt-software.svg" }
 ];
 
 export const testimonials: Testimonial[] = [
@@ -97,27 +97,27 @@ export const showreelVideos: ShowreelVideo[] = [
     {
       id: 1,
       title: "Gala Dinner Highlights",
-      embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      embedUrl: "https://www.youtube.com/embed/S97-A65eI18"
     },
     {
       id: 2,
-      title: "Team Building Fun",
-      embedUrl: "https://www.youtube.com/embed/3-M1J66l1-k"
+      title: "Corporate Event Showreel",
+      embedUrl: "https://www.youtube.com/embed/7j79gJe9wDk"
     },
     {
       id: 3,
       title: "Wedding Ceremony Moments",
-      embedUrl: "https://www.youtube.com/embed/o-YBDTqX_ZU"
+      embedUrl: "https://www.youtube.com/embed/u3m41_q4a-g"
     },
     {
       id: 4,
-      title: "Corporate Conference Opening",
-      embedUrl: "https://www.youtube.com/embed/9bZkp7q19f0"
+      title: "MC Hosting Reel",
+      embedUrl: "https://www.youtube.com/embed/N-kxxF_g2s4"
     },
      {
       id: 5,
       title: "Product Launch Event",
-      embedUrl: "https://www.youtube.com/embed/Y6aYx_lUrtM"
+      embedUrl: "https://www.youtube.com/embed/IUn2N2t-v-0"
     },
 ];
 
@@ -125,35 +125,35 @@ export const experienceData: ExperienceCategory[] = [
     {
         category: "Văn hóa - Nghệ thuật - Giải trí",
         events: [
-            { name: "Miss Grand Vietnam", image: "/picture/experience/miss_grand.jpg", videoUrl: "#", isHighlight: true },
-            { name: "Miss World Vietnam", image: "/picture/experience/miss_world.jpg", videoUrl: "#", isHighlight: true },
+            { name: "Miss Grand Vietnam", image: "https://images.unsplash.com/photo-1549448835-2a21a5759453?q=80&w=2070&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=ScgztW3-8sA", isHighlight: true },
+            { name: "Miss World Vietnam", image: "https://images.unsplash.com/photo-1505236858219-8359eb29e329?q=80&w=2162&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=UIMBdh2YI0U", isHighlight: true },
         ],
     },
     {
         category: "Kỷ niệm - Tri ân - Vinh danh",
         events: [
-            { name: "Amazon Awards", image: "/picture/experience/amazon_awards.jpg", videoUrl: "#" },
-            { name: "TCL Anniversary", image: "/picture/experience/tcl_anniversary.jpg", videoUrl: "#" },
+            { name: "Amazon Awards", image: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=2070&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=I_3s_14pSJE" },
+            { name: "TCL Anniversary", image: "https://images.unsplash.com/photo-1561489396-888724a1543d?q=80&w=2070&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=yYc3d342n8Y" },
         ],
     },
     {
         category: "Khai trương - Ra mắt",
         events: [
-            { name: "Toyota Wigo Launch", image: "/picture/experience/toyota_wigo.jpg", videoUrl: "#" },
-            { name: "FPT Opening", image: "/picture/experience/fpt_opening.jpg", videoUrl: "#" },
+            { name: "Toyota Wigo Launch", image: "https://images.unsplash.com/photo-1590132349199-2b7381016b8a?q=80&w=2069&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=eY2o_StiS0I" },
+            { name: "FPT Opening", image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1974&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=wE2Kmd22R0o" },
         ],
     },
     {
         category: "Hội nghị",
         events: [
-            { name: "Amazon Global Selling", image: "/picture/experience/amazon_global.jpg", videoUrl: "#" },
-            { name: "Sabeco Conference", image: "/picture/experience/sabeco_conf.jpg", videoUrl: "#" },
+            { name: "Amazon Global Selling", image: "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=l_n9C5mY_yA" },
+            { name: "Sabeco Conference", image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?q=80&w=2070&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=t-0t2WWPTT0" },
         ],
     },
     {
         category: "Gala - Tiệc",
         events: [
-            { name: "Vietcombank Gala", image: "/picture/experience/vcb_gala.jpg", videoUrl: "#" },
+            { name: "Vietcombank Gala", image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b6?q=80&w=2070&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=h5f_iI85i-E" },
         ],
     },
 ];

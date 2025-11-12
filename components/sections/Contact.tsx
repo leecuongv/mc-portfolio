@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
             </div>
           </div>
           <div>
-            <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://zalo.me/your_phone_number&bgcolor=202020&color=E6A23C" alt="QR Code Zalo" className="rounded-lg border-4 border-[#B8860B]/50" />
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://zalo.me&bgcolor=202020&color=D4AF37" alt="QR Code Zalo" className="rounded-lg border-4 border-[#B8860B]/50" />
              <p className="text-gray-400 mt-2 text-sm">Quét mã để kết nối Zalo</p>
           </div>
         </div>
