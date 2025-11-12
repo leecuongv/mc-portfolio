@@ -13,22 +13,22 @@ import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 const App: React.FC = () => {
   const services = [
     {
-      icon: <Mic className="w-12 h-12 text-[#E50914]" />,
+      icon: <Mic className="w-12 h-12 text-[#D4AF37]" />,
       title: "MC Sự Kiện Song Ngữ",
       description: "Dẫn dắt chuyên nghiệp cho các sự kiện hội nghị, gala, đám cưới, activation... bằng cả tiếng Việt và tiếng Anh."
     },
     {
-      icon: <Users className="w-12 h-12 text-[#E50914]" />,
+      icon: <Users className="w-12 h-12 text-[#D4AF37]" />,
       title: "Team Building & Hoạt Náo",
       description: "Thiết kế và triển khai các hoạt động team building sôi nổi, gắn kết tinh thần đồng đội cho doanh nghiệp."
     },
     {
-      icon: <MapPin className="w-12 h-12 text-[#E50914]" />,
+      icon: <MapPin className="w-12 h-12 text-[#D4AF37]" />,
       title: "Tour Guide Chuyên Nghiệp",
       description: "Hướng dẫn viên du lịch chuyên nghiệp, am hiểu văn hóa, lịch sử, mang đến những chuyến đi đầy ý nghĩa và đáng nhớ."
     },
     {
-      icon: <Camera className="w-12 h-12 text-[#E50914]" />,
+      icon: <Camera className="w-12 h-12 text-[#D4AF37]" />,
       title: "Reviewer & KOL",
       description: "Sản xuất nội dung review, quảng bá sản phẩm, địa điểm du lịch trên các nền tảng mạng xã hội."
     }
@@ -107,11 +107,11 @@ const App: React.FC = () => {
           <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
           <img src="/picture/hero-bg.jpg" alt="Background" className="absolute inset-0 w-full h-full object-cover z-[-1]" />
           <div className="relative z-10 p-4">
-            <img src="/picture/avatar.jpg" alt="MC Hoài Thương" className="rounded-full w-40 h-40 md:w-48 md:h-48 mx-auto border-4 border-[#E50914] shadow-lg mb-6" />
+            <img src="/picture/avatar.jpg" alt="MC Hoài Thương" className="rounded-full w-40 h-40 md:w-48 md:h-48 mx-auto border-4 border-[#D4AF37] shadow-lg mb-6" />
             <h1 className="text-4xl md:text-6xl font-bold font-display mb-2">MC Hoài Thương</h1>
-            <p className="text-xl md:text-2xl text-[#E50914]">Professional MC & Tour Guide</p>
+            <p className="text-xl md:text-2xl text-[#D4AF37]">Professional MC & Tour Guide</p>
             <p className="mt-4 max-w-xl mx-auto text-lg text-gray-200">MC song ngữ chuyên nghiệp, người kể chuyện bằng trái tim và là đối tác tin cậy cho mọi sự kiện thành công.</p>
-            <a href="#contact" className="mt-8 inline-block bg-[#E50914] text-white font-bold py-3 px-8 rounded-md hover:bg-[#b20710] transition duration-300">
+            <a href="#contact" className="mt-8 inline-block bg-[#D4AF37] text-white font-bold py-3 px-8 rounded-md hover:bg-[#B89B31] transition duration-300">
               Booking Now
             </a>
           </div>
@@ -122,7 +122,7 @@ const App: React.FC = () => {
           <div className="container mx-auto px-6 lg:px-8">
             <div className="grid md:grid-cols-5 gap-12 items-center">
               <div className="md:col-span-3 text-center md:text-left">
-                <h2 className="text-3xl md:text-4xl font-bold font-display mb-4 text-[#E50914]">Giới Thiệu</h2>
+                <h2 className="text-3xl md:text-4xl font-bold font-display mb-4 text-[#D4AF37]">Giới Thiệu</h2>
                 <p className="mb-4 text-gray-300">Với nhiều năm kinh nghiệm trong lĩnh vực dẫn chương trình và hướng dẫn viên du lịch, tôi tự tin mang đến sự chuyên nghiệp, năng lượng và những giá trị tốt nhất cho khách hàng. </p>
                 <p className="mb-6 text-gray-300">Phương châm làm việc của tôi là "Kết nối bằng trái tim", mỗi chương trình, mỗi chuyến đi đều được tôi đặt trọn tâm huyết để tạo nên những khoảnh khắc đáng nhớ và những trải nghiệm tuyệt vời.</p>
                  <div className="bg-[#141414]/50 p-6 rounded-lg border border-gray-700">
@@ -146,18 +146,18 @@ const App: React.FC = () => {
         <section id="stats" className="py-20 bg-[#141414]">
             <div className="container mx-auto px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                    <div className="border border-[#E50914]/30 p-8 rounded-lg">
-                        <Award className="w-12 h-12 text-[#E50914] mx-auto mb-4" />
+                    <div className="border border-[#D4AF37]/30 p-8 rounded-lg">
+                        <Award className="w-12 h-12 text-[#D4AF37] mx-auto mb-4" />
                         <p className="text-4xl font-bold font-display">5+</p>
                         <p className="text-gray-400">Năm Kinh Nghiệm</p>
                     </div>
-                    <div className="border border-[#E50914]/30 p-8 rounded-lg">
-                        <Briefcase className="w-12 h-12 text-[#E50914] mx-auto mb-4" />
+                    <div className="border border-[#D4AF37]/30 p-8 rounded-lg">
+                        <Briefcase className="w-12 h-12 text-[#D4AF37] mx-auto mb-4" />
                         <p className="text-4xl font-bold font-display">300+</p>
                         <p className="text-gray-400">Sự Kiện Đã Dẫn</p>
                     </div>
-                    <div className="border border-[#E50914]/30 p-8 rounded-lg">
-                        <Calendar className="w-12 h-12 text-[#E50914] mx-auto mb-4" />
+                    <div className="border border-[#D4AF37]/30 p-8 rounded-lg">
+                        <Calendar className="w-12 h-12 text-[#D4AF37] mx-auto mb-4" />
                         <p className="text-4xl font-bold font-display">50+</p>
                         <p className="text-gray-400">Thương Hiệu Hợp Tác</p>
                     </div>
@@ -169,7 +169,7 @@ const App: React.FC = () => {
         <section id="showreel" className="py-20 md:py-32 bg-[#202020]">
             <div className="container mx-auto px-6 lg:px-8">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold font-display text-[#E50914]">Showreel Nổi Bật</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold font-display text-[#D4AF37]">Showreel Nổi Bật</h2>
                     <p className="text-gray-400 mt-2 max-w-2xl mx-auto">Tổng hợp những khoảnh khắc ấn tượng và năng lượng nhất trên sân khấu.</p>
                 </div>
                 <Swiper
@@ -223,7 +223,7 @@ const App: React.FC = () => {
         <section id="services" className="py-20 md:py-32 bg-[#141414]">
           <div className="container mx-auto px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold font-display text-[#E50914]">Dịch Vụ Cung Cấp</h2>
+              <h2 className="text-3xl md:text-4xl font-bold font-display text-[#D4AF37]">Dịch Vụ Cung Cấp</h2>
               <p className="text-gray-400 mt-2 max-w-2xl mx-auto">Mang đến những giải pháp chuyên nghiệp và sáng tạo cho mọi nhu cầu của bạn.</p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -242,7 +242,7 @@ const App: React.FC = () => {
         <section id="gallery" className="py-20 md:py-32 bg-[#202020]">
           <div className="container mx-auto px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold font-display text-[#E50914]">Khoảnh Khắc Ấn Tượng</h2>
+              <h2 className="text-3xl md:text-4xl font-bold font-display text-[#D4AF37]">Khoảnh Khắc Ấn Tượng</h2>
                <p className="text-gray-400 mt-2">Một vài hình ảnh trong các sự kiện và chuyến đi.</p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -263,7 +263,7 @@ const App: React.FC = () => {
         <section id="partners" className="py-20 md:py-24 bg-[#141414]">
             <div className="container mx-auto px-6 lg:px-8">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold font-display text-[#E50914]">Đối Tác Tin Cậy</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold font-display text-[#D4AF37]">Đối Tác Tin Cậy</h2>
                     <p className="text-gray-400 mt-2">Vinh dự được đồng hành cùng nhiều thương hiệu lớn nhỏ.</p>
                 </div>
                 <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-8 md:gap-x-16">
@@ -285,13 +285,13 @@ const App: React.FC = () => {
         <section id="testimonials" className="py-20 md:py-32 bg-[#202020]">
           <div className="container mx-auto px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold font-display text-[#E50914]">Feedback Từ Khách Hàng</h2>
+              <h2 className="text-3xl md:text-4xl font-bold font-display text-[#D4AF37]">Feedback Từ Khách Hàng</h2>
             </div>
             <div className="grid md:grid-cols-3 gap-8 text-center">
               {testimonials.map((testimonial, index) => (
                  <div key={index} className="bg-[#141414] p-8 rounded-lg shadow-lg">
                    <p className="text-gray-300 italic mb-6">"{testimonial.quote}"</p>
-                   <p className="font-bold text-[#E50914]">{testimonial.name}</p>
+                   <p className="font-bold text-[#D4AF37]">{testimonial.name}</p>
                    <p className="text-sm text-gray-500">{testimonial.company}</p>
                  </div>
               ))}
@@ -302,7 +302,7 @@ const App: React.FC = () => {
         {/* Pricing Section */}
         <section id="pricing" className="py-20 bg-[#141414]">
             <div className="container mx-auto px-6 lg:px-8 text-center">
-                <h2 className="text-3xl md:text-4xl font-bold font-display text-[#E50914] mb-4">Báo Giá Dịch Vụ</h2>
+                <h2 className="text-3xl md:text-4xl font-bold font-display text-[#D4AF37] mb-4">Báo Giá Dịch Vụ</h2>
                 <p className="max-w-2xl mx-auto text-gray-400">
                     Mỗi sự kiện đều có những yêu cầu và quy mô riêng. Vui lòng liên hệ trực tiếp để nhận được báo giá chi tiết và phù hợp nhất với chương trình của bạn.
                 </p>
@@ -312,12 +312,12 @@ const App: React.FC = () => {
         {/* Contact Section */}
         <section id="contact" className="py-20 md:py-32 bg-[#202020]">
           <div className="container mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold font-display text-[#E50914] mb-4">Liên Hệ Đặt Lịch</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-display text-[#D4AF37] mb-4">Liên Hệ Đặt Lịch</h2>
             <p className="max-w-xl mx-auto text-gray-400 mb-8">Sẵn sàng lắng nghe và đồng hành cùng bạn để tạo nên những sự kiện và hành trình thành công. Đừng ngần ngại kết nối!</p>
             <div className="flex flex-col md:flex-row items-center justify-center gap-12">
               <div className="text-xl space-y-4">
-                <p><strong>Phone/Zalo:</strong> <a href="tel:09xx.xxx.xxx" className="hover:text-[#E50914]">09xx.xxx.xxx</a></p>
-                <p><strong>Email:</strong> <a href="mailto:contact@hoaithuong.com" className="hover:text-[#E50914]">contact@hoaithuong.com</a></p>
+                <p><strong>Phone/Zalo:</strong> <a href="tel:09xx.xxx.xxx" className="hover:text-[#D4AF37]">09xx.xxx.xxx</a></p>
+                <p><strong>Email:</strong> <a href="mailto:contact@hoaithuong.com" className="hover:text-[#D4AF37]">contact@hoaithuong.com</a></p>
                 <div className="flex justify-center space-x-6 pt-4">
                   <a href="https://zalo.me/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
                     <svg viewBox="0 0 24 24" fill="currentColor" className="h-8 w-8"><path d="M16.326 12.368l.89-3.486h-3.324v-2.18c0-.814.524-1.579 1.65-1.579h1.75V2L14.77 2c-2.85 0-4.64 1.6-4.64 4.57v2.8h-2.72v3.486h2.72v8.5h4.12v-8.5h2.434zM4.5 4.5l-2-2v19h19l2-2H4.5z" /></svg>
@@ -331,7 +331,7 @@ const App: React.FC = () => {
                 </div>
               </div>
               <div>
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://zalo.me/your_phone_number&bgcolor=202020&color=E50914" alt="QR Code Zalo" className="rounded-lg border-4 border-[#E50914]/50" />
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://zalo.me/your_phone_number&bgcolor=202020&color=D4AF37" alt="QR Code Zalo" className="rounded-lg border-4 border-[#D4AF37]/50" />
                  <p className="text-gray-400 mt-2 text-sm">Quét mã để kết nối Zalo</p>
               </div>
             </div>
