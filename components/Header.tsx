@@ -25,14 +25,14 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-[#0B132B]/80 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-[#141414]/80 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 lg:px-8 flex justify-between items-center h-20">
         <a href="#home" className="text-2xl font-bold text-white font-display">
           Hoài Thương
         </a>
         <nav className="hidden md:flex space-x-6">
           {navLinks.map(link => (
-             <a key={link.href} href={link.href} className="text-gray-200 hover:text-[#D4AF37] transition-colors duration-300 font-medium">
+             <a key={link.href} href={link.href} className="text-gray-200 hover:text-[#E50914] transition-colors duration-300 font-medium">
               {link.label}
             </a>
           ))}
