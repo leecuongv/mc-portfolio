@@ -8,7 +8,7 @@ const Header: React.FC = () => {
     { href: '#about', label: 'Giới Thiệu' },
     { href: '#showreel', label: 'Showreel' },
     { href: '#services', label: 'Dịch Vụ' },
-    { href: '#gallery', label: 'Thư Viện Ảnh' },
+    { href: '#experience', label: 'Kinh Nghiệm' },
     { href: '#partners', label: 'Đối Tác' },
     { href: '#contact', label: 'Liên Hệ' },
   ];
