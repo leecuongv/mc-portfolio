@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       <img src="./data/avt.webp" alt="Background" className="absolute inset-0 w-full h-full object-cover z-[-1]" />
       <div className="relative z-10 p-4">
         <div className="relative inline-block p-1 rounded-full bg-gradient-to-br from-[#f0e68c] via-[#d4af37] to-[#b8860b] mb-6 shadow-lg">
-            <img src="/picture/avatar.jpg" alt="MC Hoài Thương" className="rounded-full w-40 h-40 md:w-48 md:h-48 object-cover" />
+            <img src="./data/avt.webp" alt="MC Hoài Thương" className="rounded-full w-40 h-40 md:w-48 md:h-48 object-cover" />
         </div>
         <h1 className="text-4xl md:text-6xl font-bold font-display mb-2">MC Hoài Thương</h1>
         <p className="text-xl md:text-2xl text-gold-metallic font-semibold">Professional MC & Tour Guide</p>
