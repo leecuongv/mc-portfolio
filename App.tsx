@@ -44,7 +44,12 @@ const App: React.FC = () => {
   ];
   
   const partners = [
-    "TechCorp", "Innovate Ltd.", "Z-Solutions", "Global Media", "NextGen Events", "Prestige Hotels"
+    { name: "TechCorp", logo: "/logos/techcorp.png" },
+    { name: "Innovate Ltd", logo: "/logos/innovate.png" },
+    { name: "Z-Solutions", logo: "/logos/z-solutions.png" },
+    { name: "Global Media", logo: "/logos/global-media.png" },
+    { name: "NextGen Events", logo: "/logos/nextgen.png" },
+    { name: "Prestige Hotels", logo: "/logos/prestige.png" }
   ];
 
   const testimonials = [
@@ -261,10 +266,15 @@ const App: React.FC = () => {
                     <h2 className="text-3xl md:text-4xl font-bold font-display text-[#D4AF37]">Đối Tác Tin Cậy</h2>
                     <p className="text-gray-300 mt-2">Vinh dự được đồng hành cùng nhiều thương hiệu lớn nhỏ.</p>
                 </div>
-                <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4 md:gap-x-12">
+                <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-8 md:gap-x-16">
                     {partners.map(partner => (
-                        <div key={partner} className="text-gray-400 text-2xl font-semibold opacity-70 hover:opacity-100 transition-opacity">
-                            {partner}
+                        <div key={partner.name} className="flex justify-center items-center">
+                            <img 
+                                src={partner.logo} 
+                                alt={partner.name}
+                                className="h-12 md:h-16 w-auto object-contain filter grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300"
+                                title={partner.name}
+                            />
                         </div>
                     ))}
                 </div>
