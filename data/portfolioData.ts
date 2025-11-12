@@ -67,7 +67,7 @@ export const services: Service[] = [
 ];
   
 export const partners: Partner[] = [
-    { name: "TechCorp", logo: "/logos/techcorp.png" },
+    { name: "Honda VietNam", logo: "./data/logos/Honda.svg" },
     { name: "Innovate Ltd", logo: "/logos/innovate.png" },
     { name: "Z-Solutions", logo: "/logos/z-solutions.png" },
     { name: "Global Media", logo: "/logos/global-media.png" },

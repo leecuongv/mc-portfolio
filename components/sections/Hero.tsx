@@ -4,7 +4,7 @@ const Hero: React.FC = () => {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center text-center">
       <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
-      <img src="/picture/hero-bg.jpg" alt="Background" className="absolute inset-0 w-full h-full object-cover z-[-1]" />
+      <img src="./data/avt.webp" alt="Background" className="absolute inset-0 w-full h-full object-cover z-[-1]" />
       <div className="relative z-10 p-4">
         <div className="relative inline-block p-1 rounded-full bg-gradient-to-br from-[#f0e68c] via-[#d4af37] to-[#b8860b] mb-6 shadow-lg">
             <img src="/picture/avatar.jpg" alt="MC Hoài Thương" className="rounded-full w-40 h-40 md:w-48 md:h-48 object-cover" />
