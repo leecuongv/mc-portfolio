@@ -73,7 +73,7 @@ export const partners: Partner[] = [
     { name: "Sabeco", logo: "./data/logos/Sabeco.png" },
     { name: "OCB", logo: "./data/logos/OCB.png" },
     { name: "BIDV", logo: "./data/logos/BIDV.png" },
-    { name: "Heineken", logo: "./data/logos/heineken.png" }
+    { name: "Heineken", logo: "./data/logos/Heineken.png" }
 ];
 
 export const testimonials: Testimonial[] = [
