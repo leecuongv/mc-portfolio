@@ -67,12 +67,13 @@ export const services: Service[] = [
 ];
   
 export const partners: Partner[] = [
-    { name: "Amazon", logo: "https://cdn.worldvectorlogo.com/logos/amazon-2.svg" },
-    { name: "Honda", logo: "https://cdn.worldvectorlogo.com/logos/honda-9.svg" },
-    { name: "Yamaha", logo: "https://cdn.worldvectorlogo.com/logos/yamaha-4.svg" },
-    { name: "Sabeco", logo: "https://cdn.worldvectorlogo.com/logos/sabeco.svg" },
-    { name: "TCL", logo: "https://cdn.worldvectorlogo.com/logos/tcl-1.svg" },
-    { name: "FPT Software", logo: "https://cdn.worldvectorlogo.com/logos/fpt-software.svg" }
+    { name: "ViettinBank", logo: "./data/logos/ViettinBank.svg" },
+    { name: "Honda", logo: "./data/logos/Honda.svg" },
+    { name: "Yamaha", logo: "./data/logos/Yamaha.svg" },
+    { name: "Sabeco", logo: "./data/logos/Sabeco.png" },
+    { name: "OCB", logo: "./data/logos/OCB.png" },
+    { name: "BIDV", logo: "./data/logos/BIDV.png" },
+    { name: "Heineken", logo: "./data/logos/heineken.png" }
 ];
 
 export const testimonials: Testimonial[] = [
@@ -97,27 +98,27 @@ export const showreelVideos: ShowreelVideo[] = [
     {
       id: 1,
       title: "Gala Dinner Highlights",
-      embedUrl: "https://www.youtube.com/embed/S97-A65eI18"
+      embedUrl: "https://www.youtube.com/embed/Rzm_kltwHbg"
     },
     {
       id: 2,
       title: "Corporate Event Showreel",
-      embedUrl: "https://www.youtube.com/embed/7j79gJe9wDk"
+      embedUrl: "https://www.youtube.com/embed/Rzm_kltwHbg"
     },
     {
       id: 3,
       title: "Wedding Ceremony Moments",
-      embedUrl: "https://www.youtube.com/embed/u3m41_q4a-g"
+      embedUrl: "https://www.youtube.com/embed/Rzm_kltwHbg"
     },
     {
       id: 4,
       title: "MC Hosting Reel",
-      embedUrl: "https://www.youtube.com/embed/N-kxxF_g2s4"
+      embedUrl: "https://www.youtube.com/embed/Rzm_kltwHbg"
     },
      {
       id: 5,
       title: "Product Launch Event",
-      embedUrl: "https://www.youtube.com/embed/IUn2N2t-v-0"
+      embedUrl: "https://www.youtube.com/embed/Rzm_kltwHbg"
     },
 ];
 
