@@ -13,8 +13,8 @@ const Experience: React.FC = () => {
         <section id="experience" className="py-20 md:py-32 bg-[#202020]">
             <div className="container mx-auto px-6 lg:px-8">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold font-display text-gold-metallic">Kinh Nghiệm Thực Chiến</h2>
-                    <p className="text-gray-400 mt-2">Phân loại theo dòng sự kiện để bạn dễ dàng tìm kiếm.</p>
+                    <h2 className="text-3xl md:text-4xl font-bold font-display text-gold-metallic">Kinh Nghiệm</h2>
+                    <p className="text-gray-400 mt-2">Các sự kiện nổi bật</p>
                 </div>
 
                 <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-12">

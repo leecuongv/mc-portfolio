@@ -126,35 +126,35 @@ export const experienceData: ExperienceCategory[] = [
     {
         category: "Văn hóa - Nghệ thuật - Giải trí",
         events: [
-            { name: "Miss Grand Vietnam", image: "https://picsum.photos/800/600?random=1", videoUrl: "https://www.youtube.com/watch?v=ScgztW3-8sA", isHighlight: true },
-            { name: "Miss World Vietnam", image: "https://picsum.photos/800/600?random=2", videoUrl: "https://www.youtube.com/watch?v=UIMBdh2YI0U", isHighlight: true },
+            { name: "Giải bóng đá Du lịch Miền Trung - Tây Nguyên 2025", image: "https://picsum.photos/800/600?random=1", videoUrl: "https://www.youtube.com/watch?v=ScgztW3-8sA", isHighlight: true },
+            { name: "Vui hội trăng rằm", image: "https://picsum.photos/800/600?random=2", videoUrl: "https://www.youtube.com/watch?v=UIMBdh2YI0U", isHighlight: true },
         ],
     },
     {
         category: "Kỷ niệm - Tri ân - Vinh danh",
         events: [
-            { name: "Amazon Awards", image: "https://picsum.photos/800/600?random=3", videoUrl: "https://www.youtube.com/watch?v=I_3s_14pSJE" },
-            { name: "TCL Anniversary", image: "https://picsum.photos/800/600?random=4", videoUrl: "https://www.youtube.com/watch?v=yYc3d342n8Y" },
+            { name: "Amazone Awards", image: "https://picsum.photos/800/600?random=3", videoUrl: "https://www.youtube.com/watch?v=I_3s_14pSJE" },
+            { name: "FHS 50 Anniversary", image: "https://picsum.photos/800/600?random=4", videoUrl: "https://www.youtube.com/watch?v=yYc3d342n8Y" },
         ],
     },
     {
         category: "Khai trương - Ra mắt",
         events: [
-            { name: "Toyota Wigo Launch", image: "https://picsum.photos/800/600?random=5", videoUrl: "https://www.youtube.com/watch?v=eY2o_StiS0I" },
+            { name: "Yamaha Grande Launch", image: "https://picsum.photos/800/600?random=5", videoUrl: "https://www.youtube.com/watch?v=eY2o_StiS0I" },
             { name: "FPT Opening", image: "https://picsum.photos/800/600?random=6", videoUrl: "https://www.youtube.com/watch?v=wE2Kmd22R0o" },
         ],
     },
     {
         category: "Hội nghị",
         events: [
-            { name: "Amazon Global Selling", image: "https://picsum.photos/800/600?random=7", videoUrl: "https://www.youtube.com/watch?v=l_n9C5mY_yA" },
+            { name: "Amazone", image: "https://picsum.photos/800/600?random=7", videoUrl: "https://www.youtube.com/watch?v=l_n9C5mY_yA" },
             { name: "Sabeco Conference", image: "https://picsum.photos/800/600?random=8", videoUrl: "https://www.youtube.com/watch?v=t-0t2WWPTT0" },
         ],
     },
     {
         category: "Gala - Tiệc",
         events: [
-            { name: "Vietcombank Gala", image: "https://picsum.photos/800/600?random=9", videoUrl: "https://www.youtube.com/watch?v=h5f_iI85i-E" },
+            { name: "ViettinBank Gala", image: "https://picsum.photos/800/600?random=9", videoUrl: "https://www.youtube.com/watch?v=h5f_iI85i-E" },
         ],
     },
 ];
