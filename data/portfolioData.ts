@@ -126,35 +126,35 @@ export const experienceData: ExperienceCategory[] = [
     {
         category: "Văn hóa - Nghệ thuật - Giải trí",
         events: [
-            { name: "Miss Grand Vietnam", image: "https://images.unsplash.com/photo-1549448835-2a21a5759453?q=80&w=2070&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=ScgztW3-8sA", isHighlight: true },
-            { name: "Miss World Vietnam", image: "https://images.unsplash.com/photo-1505236858219-8359eb29e329?q=80&w=2162&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=UIMBdh2YI0U", isHighlight: true },
+            { name: "Miss Grand Vietnam", image: "https://picsum.photos/800/600?random=1", videoUrl: "https://www.youtube.com/watch?v=ScgztW3-8sA", isHighlight: true },
+            { name: "Miss World Vietnam", image: "https://picsum.photos/800/600?random=2", videoUrl: "https://www.youtube.com/watch?v=UIMBdh2YI0U", isHighlight: true },
         ],
     },
     {
         category: "Kỷ niệm - Tri ân - Vinh danh",
         events: [
-            { name: "Amazon Awards", image: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=2070&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=I_3s_14pSJE" },
-            { name: "TCL Anniversary", image: "https://images.unsplash.com/photo-1561489396-888724a1543d?q=80&w=2070&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=yYc3d342n8Y" },
+            { name: "Amazon Awards", image: "https://picsum.photos/800/600?random=3", videoUrl: "https://www.youtube.com/watch?v=I_3s_14pSJE" },
+            { name: "TCL Anniversary", image: "https://picsum.photos/800/600?random=4", videoUrl: "https://www.youtube.com/watch?v=yYc3d342n8Y" },
         ],
     },
     {
         category: "Khai trương - Ra mắt",
         events: [
-            { name: "Toyota Wigo Launch", image: "https://images.unsplash.com/photo-1590132349199-2b7381016b8a?q=80&w=2069&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=eY2o_StiS0I" },
-            { name: "FPT Opening", image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1974&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=wE2Kmd22R0o" },
+            { name: "Toyota Wigo Launch", image: "https://picsum.photos/800/600?random=5", videoUrl: "https://www.youtube.com/watch?v=eY2o_StiS0I" },
+            { name: "FPT Opening", image: "https://picsum.photos/800/600?random=6", videoUrl: "https://www.youtube.com/watch?v=wE2Kmd22R0o" },
         ],
     },
     {
         category: "Hội nghị",
         events: [
-            { name: "Amazon Global Selling", image: "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=l_n9C5mY_yA" },
-            { name: "Sabeco Conference", image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?q=80&w=2070&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=t-0t2WWPTT0" },
+            { name: "Amazon Global Selling", image: "https://picsum.photos/800/600?random=7", videoUrl: "https://www.youtube.com/watch?v=l_n9C5mY_yA" },
+            { name: "Sabeco Conference", image: "https://picsum.photos/800/600?random=8", videoUrl: "https://www.youtube.com/watch?v=t-0t2WWPTT0" },
         ],
     },
     {
         category: "Gala - Tiệc",
         events: [
-            { name: "Vietcombank Gala", image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b6?q=80&w=2070&auto=format&fit=crop", videoUrl: "https://www.youtube.com/watch?v=h5f_iI85i-E" },
+            { name: "Vietcombank Gala", image: "https://picsum.photos/800/600?random=9", videoUrl: "https://www.youtube.com/watch?v=h5f_iI85i-E" },
         ],
     },
 ];
