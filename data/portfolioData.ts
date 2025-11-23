@@ -78,7 +78,7 @@ export const partners: Partner[] = [
 
 export const testimonials: Testimonial[] = [
     {
-      quote: "Hoài Thương đã mang đến một không khí vô cùng sôi động và chuyên nghiệp cho sự kiện của chúng tôi. Rất hài lòng!",
+    quote: "Hoài Ân đã mang đến một không khí vô cùng sôi động và chuyên nghiệp cho sự kiện của chúng tôi. Rất hài lòng!",
       name: "Anh Khoa",
       company: "Giám đốc Marketing, Z Corp"
     },
