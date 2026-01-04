@@ -20,7 +20,7 @@ const About: React.FC = () => {
             </div>
           </div>
           <div className="md:col-span-2">
-            <img src="./data/avt.png" alt="About MC Hoai Thuong" className="rounded-lg shadow-2xl mx-auto w-full max-w-sm object-cover h-96" />
+            <img src="/avt.png" alt="About MC Hoai Thuong" className="rounded-lg shadow-2xl mx-auto w-full max-w-sm object-cover h-96" />
           </div>
         </div>
       </div>

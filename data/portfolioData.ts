@@ -67,13 +67,13 @@ export const services: Service[] = [
 ];
   
 export const partners: Partner[] = [
-    { name: "ViettinBank", logo: "./data/logos/ViettinBank.svg" },
-    { name: "Honda", logo: "./data/logos/Honda.svg" },
-    { name: "Yamaha", logo: "./data/logos/Yamaha.svg" },
-    { name: "Sabeco", logo: "./data/logos/Sabeco.png" },
-    { name: "OCB", logo: "./data/logos/OCB.png" },
-    { name: "BIDV", logo: "./data/logos/BIDV.png" },
-    { name: "Heineken", logo: "./data/logos/Heineken.png" }
+    { name: "ViettinBank", logo: "/logos/ViettinBank.svg" },
+    { name: "Honda", logo: "/logos/Honda.svg" },
+    { name: "Yamaha", logo: "/logos/Yamaha.svg" },
+    { name: "Sabeco", logo: "/logos/Sabeco.png" },
+    { name: "OCB", logo: "/logos/OCB.png" },
+    { name: "BIDV", logo: "/logos/BIDV.png" },
+    { name: "Heineken", logo: "/logos/Heineken.png" }
 ];
 
 export const testimonials: Testimonial[] = [
