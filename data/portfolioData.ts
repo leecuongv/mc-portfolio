@@ -72,8 +72,7 @@ export const partners: Partner[] = [
     { name: "Yamaha", logo: "/logos/Yamaha.svg" },
     { name: "Sabeco", logo: "/logos/Sabeco.png" },
     { name: "OCB", logo: "/logos/OCB.png" },
-    { name: "BIDV", logo: "/logos/BIDV.png" },
-    { name: "Heineken", logo: "/logos/Heineken.png" }
+    { name: "BIDV", logo: "/logos/BIDV.png" }
 ];
 
 export const testimonials: Testimonial[] = [
